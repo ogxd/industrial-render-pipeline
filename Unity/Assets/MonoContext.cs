@@ -81,11 +81,7 @@ public class MonoContext : MonoBehaviour {
 
             // Set time for the plugin
             SetTimeFromUnity(Time.timeSinceLevelLoad);
-<<<<<<< Updated upstream
 
-=======
-            
->>>>>>> Stashed changes
             // Issue a plugin event with arbitrary integer identifier.
             // The plugin can distinguish between different
             // things it needs to do based on this ID.
